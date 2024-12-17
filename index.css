@@ -15,11 +15,17 @@ html,body{
     /* justify-content: center; */
     align-items: center;
     padding: 30px;
+    /* background : linear-gradient(blue ,green) */
+    /* background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%); */
+    /* background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%); */
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
 }
 .h1-style{
 
     letter-spacing: 10px;
-    color: red;
+    color: rgba(39, 6, 251, 0.963);
 }
 .to-do-cont{
 
@@ -39,7 +45,7 @@ html,body{
 .label-cont{
 
     padding: 10px;
-    width: 75%;
+    width: 80%;
     border-radius: 15px;
     background-color: rgb(90, 211, 244);
     border-left: solid 5px  rgb(72, 142, 161) ;

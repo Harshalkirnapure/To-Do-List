@@ -180,6 +180,6 @@ let todoList= onGetParseTodo();
 
  function onSaveTodo(){
 
-    let strinFyTodo=JSON.stringify(todoList);  /*local storge cant store object. only store string value so we convert it */ 
-    localStorage.setItem("myTodo",strinFyTodo);
+    let strinFyTodo=JSON.stringify(todoList);     /*local storge cant store object. only store string value so we convert it */ 
+    localStorage.setItem("myTodo",strinFyTodo);   /*key,key value */
  }
